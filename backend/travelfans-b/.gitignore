@@ -1,3 +1,4 @@
+
 HELP.md
 .gradle
 build/
@@ -35,3 +36,28 @@ out/
 
 ### VS Code ###
 .vscode/
+
+# Maven
+target/
+*.jar
+*.war
+*.class
+
+# Configuración con credenciales (¡MUY IMPORTANTE!)
+src/main/resources/application.properties
+src/main/resources/application.yml
+src/main/resources/application-prod.properties
+
+# IDE - IntelliJ
+.idea/
+*.iml
+*.iws
+
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
